@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Blocks</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        h1 {
+            background-color: #900;
+            color: #EEE;
+        }
+
+        div#block1 {
+            background-color: #090;
+            color: #EEE;
+            float: left;
+            width: 200px;
+        }
+
+        div#block2 {
+            background-color: #009;
+            color: #EEE;
+            margin-left: 200px;
+        }
+
+        div#blockcontainer,
+        div#blockcontainer2 {
+            border: 5px solid #000;
+            margin: 10px;
+            padding: 10px;
+            overflow: hidden;
+        }
+
+        div#block3 {
+            background-color: #090;
+            color: #EEE;
+        }
+
+        div#block4 {
+            background-color: #009;
+            color: #EEE;
+        }
+
+        div#block5 {
+            background-color: #909;
+            color: #EEE;
+        }
+
+        div#blockcontainer2 div {
+            width: 300px;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Flaoting Blocks</h1>
+
+    <div id="blockcontainer">
+        <div id="block1">this is block 1</div>
+
+        <div id="block2">this is block 2</div>
+    </div><!-- end of block container -->
+
+    <div id="blockcontainer2">
+        <div id="block3">this is block 3</div>
+
+        <div id="block4">this is block 4</div>
+
+        <div id="block5">this is block 5</div>
+    </div><!-- end of block container -->
+
+</body>
+
+</html>
