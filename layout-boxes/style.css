@@ -1,0 +1,89 @@
+body {
+  margin: 0.8%;
+  width: 70%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.box {
+  margin: 0.3em;
+}
+
+.content {
+  padding: 3%;
+}
+
+body > header {
+  background-color: #d60000;
+  display: table;
+  width: 100%;
+  margin: 0 0 0.8% 0;
+}
+
+body > header > h1 {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+body > header > section {
+  background-color: #ffb448;
+  padding: 10% 50%;
+  float: right;
+  margin: 3%;
+}
+
+body > div {
+  height: 30rem;
+}
+
+body > div > main {
+  width: 75%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+body > div > main > header {
+  background-color: #ff7c7c;
+  margin: 0 1% 1% 0;
+}
+
+body > div > main > article {
+  background-color: #ededed;
+  text-align: center;
+  height: 100%;
+  margin: 0 1% 0 0;
+}
+
+body > div > main > article > header > section {
+  background-color: #ffddaa;
+  display: inline-block;
+  padding: 8% 0;
+  margin: 0.5%;
+  width: 31%;
+}
+
+body > div > main > article > h1 {
+  padding: 5% 0 0 0;
+}
+
+body > div > aside {
+  width: 25%;
+  height: 100%;
+  float: right;
+  background-color: #404040;
+  display: table;
+  writing-mode: vertical-rl;
+}
+
+body > div > aside > h1 {
+  display: table-cell;
+  vertical-align: middle;
+  transform: rotate(180deg);
+  text-align: center;
+}
