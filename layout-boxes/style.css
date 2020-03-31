@@ -15,7 +15,7 @@ h1 {
 }
 
 .content {
-  padding: 3%;
+  padding: 0.5em;
 }
 
 body > header {
@@ -68,7 +68,7 @@ body > div > main > article > header > section {
   width: 31%;
 }
 
-body > div > main > article > h1 {
+body > div > main > article > h2 {
   padding: 5% 0 0 0;
 }
 
@@ -81,7 +81,7 @@ body > div > aside {
   writing-mode: vertical-rl;
 }
 
-body > div > aside > h1 {
+body > div > aside > h2 {
   display: table-cell;
   vertical-align: middle;
   transform: rotate(180deg);
